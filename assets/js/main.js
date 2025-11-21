@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 async function fetchProfileData() {
     try {
-        const response = await fetch('data/profile.json');
+        const response = await fetch(`data/profile.json?v=${new Date().getTime()}`);
         if (!response.ok) throw new Error('Failed to load profile data');
         const data = await response.json();
         renderProfile(data);
@@ -22,7 +22,7 @@ function renderProfile(data) {
     document.getElementById('hero-name').textContent = profile.name;
     document.getElementById('hero-headline').textContent = profile.headline;
     document.getElementById('hero-subheadline').textContent = profile.subHeadline;
-    
+
     // --- About Section ---
     document.getElementById('about-text').textContent = profile.about;
 
@@ -98,12 +98,12 @@ function renderProfile(data) {
         `;
         educationContainer.appendChild(item);
     });
-    
+
     // --- Certifications (Optional, appended to Education for now) ---
     if (certifications && certifications.length > 0) {
         const certSection = document.createElement('div');
         certSection.style.marginTop = '2rem';
-        certSection.innerHTML = '<h3>Certifications</h3><ul style="list-style: disc; padding-left: 1.5rem; color: var(--secondary-color);">' + 
+        certSection.innerHTML = '<h3>Certifications</h3><ul style="list-style: disc; padding-left: 1.5rem; color: var(--secondary-color);">' +
             certifications.map(c => `<li>${c}</li>`).join('') + '</ul>';
         educationContainer.appendChild(certSection);
     }
@@ -111,7 +111,7 @@ function renderProfile(data) {
     // --- Contact / Footer ---
     document.getElementById('contact-email').href = profile.social.email;
     document.getElementById('contact-email').textContent = profile.email;
-    
+
     document.getElementById('footer-linkedin').href = profile.social.linkedin;
     document.getElementById('footer-github').href = profile.social.github;
 }
