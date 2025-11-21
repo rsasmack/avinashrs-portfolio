@@ -114,219 +114,101 @@
       "degree": "Post Graduate Program, Data Science and Engineering",
       "year": "2020 - 2021"
     },
-```
-{
-      "profile": {
-        "name": "Avinash RS",
-        "fullName": "Avinash Rajaraman Swaminathan",
-        "headline": "Senior Data Scientist | Gen AI Engineer | Agentic AI",
-        "subHeadline": "LLMs, Vision & NLP on AWS/GCP/Azure | From Prototype to Production Inference",
-        "about": "Senior Data Scientist building LLM and agent-based systems that move from notebook to production across AWS, GCP, and Azure. My work spans text-to-3D human motion generation, medical imaging, and transformer-based NLP, with experience across patent analytics, retail, and financial data. I care about owning projects end-to-end: framing the problem, designing and training models, shipping APIs or web apps, and measuring real-world impact. Open to roles as Data Scientist, Machine Learning Engineer, or Gen AI Engineer where I can design and deploy ML systems at scale.",
-        "location": "New York, New York, United States",
-        "email": "aeroapj@gmail.com",
-        "social": {
-          "linkedin": "https://www.linkedin.com/in/avinashrs",
-          "github": "https://github.com/rsasmack",
-          "email": "mailto:aeroapj@gmail.com"
-        }
-      },
-      "skills": {
-        "AI & Gen AI": [
-          "LLMs (GPT, LLaMA)",
-          "RAG and Retrieval Evaluation",
-          "LangChain, LangGraph",
-          "Agent Frameworks (CrewAI, Multi-agent Systems)",
-          "Prompt Engineering & System Design",
-          "Vector DBs (FAISS, Pinecone, Neo4j Graph)",
-          "Computer Vision (3D Motion, Segmentation)",
-          "NLP (Transformers, Text Classification, Semantic Search)",
-          "Deep Learning (PyTorch, TensorFlow/Keras)",
-          "Core ML Libraries (scikit-learn, Pandas, NumPy)"
-        ],
-        "Programming": [
-          "Python",
-          "SQL",
-          "NoSQL (MongoDB)",
-          "Cypher (Neo4j)",
-          "C++",
-          "R",
-          "JavaScript (Node.js, React)",
-          "Go"
-        ],
-        "Cloud & DevOps": [
-          "AWS",
-          "GCP",
-          "Azure",
-          "Docker & Containerization",
-          "Terraform & Infrastructure as Code",
-          "Git, GitHub/Bitbucket",
-          "CI/CD Pipelines",
-          "Snowflake",
-          "Databricks"
-        ],
-        "Data Engineering/Visualization": [
-          "Hadoop",
-          "Hive",
-          "Spark",
-          "ETL/ELT Pipelines",
-          "Data Modeling",
-          "Tableau",
-          "Power BI",
-          "Looker",
-          "Qlik"
-        ]
-      },
-      "experience": [
-        {
-          "company": "Infosys",
-          "role": "Senior Data Scientist",
-          "duration": "October 2024 - Present",
-          "location": "United States",
-          "description": "Designing and launching agentic Gen AI pipelines for enterprise clients, combining LLMs, tools, and vector search to power retrieval-augmented generation and decision-support workflows across AWS, GCP, and Azure. Owns model design, evaluation, and deployment for production inference."
-        },
-        {
-          "company": "Yeshiva University",
-          "role": "Graduate Assistant - IT",
-          "duration": "January 2023 - May 2024",
-          "location": "New York, NY",
-          "description": "Supported AI and data science coursework and research by building reproducible experiments in Python, maintaining GPU environments, and mentoring students on projects involving NLP, computer vision, and applied machine learning."
-        },
-        {
-          "company": "S&P Global",
-          "role": "Machine Learning Intern",
-          "duration": "May 2023 - August 2023",
-          "location": "New York, NY",
-          "description": "Prototyped ML models on financial datasets to score risk and surface actionable insights for internal stakeholders. Worked end-to-end on data cleaning, feature engineering, model training (tree-based and deep learning models), and delivering results through notebooks and dashboards."
-        },
-        {
-          "company": "Tesco",
-          "role": "Senior Applied Data Scientist",
-          "duration": "July 2022 - December 2022",
-          "location": "Bengaluru, India",
-          "description": "Developed applied machine learning solutions for retail use cases such as demand forecasting and customer analytics. Collaborated with product and engineering teams to productionize models, improve data pipelines in Spark, and communicate insights to business stakeholders."
-        },
-        {
-          "company": "ZS",
-          "role": "Business Analyst",
-          "duration": "May 2021 - July 2022",
-          "location": "Pune, India",
-          "description": "Built ML and analytic solutions for global clients using Python, SQL, and BI tools. Developed dashboards and data products that supported sales, marketing, and operations decisions, and contributed to predictive models for segmentation and targeting."
-        },
-        {
-          "company": "MaxVal Group, Inc.",
-          "role": "Patent Analyst",
-          "duration": "January 2018 - June 2020",
-          "location": "Bengaluru, India",
-          "description": ""
-        }
-      ],
-      "education": [
-        {
-          "institution": "Yeshiva University",
-          "degree": "Master of Science - MS, Artificial Intelligence",
-          "year": "2023 - 2024"
-        },
-        {
-          "institution": "Great Lakes Institute of Management",
-          "degree": "Post Graduate Program, Data Science and Engineering",
-          "year": "2020 - 2021"
-        },
-        {
-          "institution": "Anna University",
-          "degree": "Bachelor of Technology - BTech, Information Technology",
-          "year": "2014 - 2018"
-        }
-      ],
-      "certifications": [
-        "Azure AI Engineer Associate",
-        "AWS Cloud Practitioner",
-        "Google Cloud Platform (GCP) Professional Machine Learning Engineer",
-        "GCP Gen AI Skill: L400",
-        "Salesforce Certified AI Associate",
-        "M100: MongoDB for SQL Pros",
-        "Neo4j Certified Professional",
-        "Generative AI with Large Language Models",
-        "Large Language Models: Application through Production"
-      ],
-      "projects": [
-        {
-          "title": "3D-Human-Motion",
-          "tech": [
-            "Python",
-            "PyTorch",
-            "Computer Vision",
-            "VQ-VAE",
-            "Motion Diffusion Models",
-            "Deep Learning (PyTorch/TensorFlow)",
-            "NumPy",
-            "Matplotlib"
-          ],
-          "description": "Analysis and modeling of 3D human motion data for behavioral understanding or animation. Research-based Implementation of the Text Residual Motion Encoder (TRME) model for generating 3D human motion from natural language descriptions. Extends VQ-VAE architectures and leverages the CHAD and HumanML3D datasets to capture fine-grained motion details, including full pipelines for data prep, training, evaluation (FID, diversity, R-precision, MM-Dist), and motion visualization.",
-          "link": "https://github.com/rsasmack/3D-Human-Motion"
-        },
-        {
-          "title": "Text_Analytics",
-          "tech": [
-            "Python",
-            "NLP",
-            "NLTK",
-            "Spacy",
-            "Text Mining",
-            "Unstructured Data Analysis"
-          ],
-          "description": "End-to-end web application that detects whether two questions are duplicates, inspired by Quora/StackOverflow. Combines classic ML models (Random Forest, XGBoost, Logistic Regression, etc.) with transformer-based models (SBERT and DistilBERT) to compare semantic similarity, and exposes the best-performing DistilBERT model via a web interface for real-time predictions.",
-          "link": "https://github.com/rsasmack/Text_Analytics"
-        },
-        {
-          "title": "U-Net-based-Lung-Segmentation",
-          "tech": [
-            "Python",
-            "TensorFlow/Keras",
-            "U-Net Architecture",
-            "OpenCV",
-            "Medical Imaging"
-          ],
-          "description": "Medical image segmentation project using a U-Net architecture to segment lung regions in CT/X-ray scans. Covers dataset preprocessing, model training, and visualization of segmentation masks, demonstrating experience with applied deep learning for healthcare imaging.",
-          "link": "https://github.com/rsasmack/U-Net-based-Lung-Segmentation"
-        },
-        {
-          "title": "Face-Mask-detection-through-email-warning",
-          "tech": [
-            "Python",
-            "OpenCV",
-            "Deep Learning",
-            "SMTP (Email Automation)",
-            "Real-time Inference"
-          ],
-          "description": "Real-time computer vision system that detects whether individuals are wearing face masks and automatically sends email alerts when non-compliance is detected. Implements a CNN-based classifier, integrates with OpenCV for live video streams, and uses SMTP to trigger alert workflows.",
-          "link": "https://github.com/rsasmack/Face-Mask-detection-through-email-warning"
-        },
-        {
-          "title": "Sarcasm-Detection",
-          "tech": [
-            "Python",
-            "NLP",
-            "Scikit-learn",
-            "Pandas",
-            "Text Processing",
-            "Sentiment Analysis"
-          ],
-          "description": "NLP project that detects sarcasm in text (social media posts) to improve sentiment analysis accuracy. Covers data preprocessing, feature engineering, model training with traditional ML algorithms, and evaluation of classification performance.",
-          "link": "https://github.com/rsasmack/Sarcasm-Detection"
-        },
-        {
-          "title": "Covid-Stage-Analysis-Prediction",
-          "tech": [
-            "Python",
-            "Data Analytics",
-            "Pandas",
-            "Scikit-learn",
-            "Predictive Modeling",
-            "Visualization"
-          ],
-          "description": "Predictive analytics project analyzing COVID-19 spread patterns and staging.",
-          "link": "https://github.com/rsasmack/Covid-Stage-Analysis-Prediction"
-        }
-      ]
+    {
+      "institution": "Anna University",
+      "degree": "Bachelor of Technology - BTech, Information Technology",
+      "year": "2014 - 2018"
     }
-```
+  ],
+  "certifications": [
+    "Azure AI Engineer Associate",
+    "AWS Cloud Practitioner",
+    "Google Cloud Platform (GCP) Professional Machine Learning Engineer",
+    "GCP Gen AI Skill: L400",
+    "Salesforce Certified AI Associate",
+    "M100: MongoDB for SQL Pros",
+    "Neo4j Certified Professional",
+    "Generative AI with Large Language Models",
+    "Large Language Models: Application through Production"
+  ],
+  "projects": [
+    {
+      "title": "3D-Human-Motion",
+      "tech": [
+        "Python",
+        "PyTorch",
+        "Computer Vision",
+        "VQ-VAE",
+        "Motion Diffusion Models",
+        "Deep Learning (PyTorch/TensorFlow)",
+        "NumPy",
+        "Matplotlib"
+      ],
+      "description": "Analysis and modeling of 3D human motion data for behavioral understanding or animation. Research-based Implementation of the Text Residual Motion Encoder (TRME) model for generating 3D human motion from natural language descriptions. Extends VQ-VAE architectures and leverages the CHAD and HumanML3D datasets to capture fine-grained motion details, including full pipelines for data prep, training, evaluation (FID, diversity, R-precision, MM-Dist), and motion visualization.",
+      "link": "https://github.com/rsasmack/3D-Human-Motion"
+    },
+    {
+      "title": "Text_Analytics",
+      "tech": [
+        "Python",
+        "NLP",
+        "NLTK",
+        "Spacy",
+        "Text Mining",
+        "Unstructured Data Analysis"
+      ],
+      "description": "End-to-end web application that detects whether two questions are duplicates, inspired by Quora/StackOverflow. Combines classic ML models (Random Forest, XGBoost, Logistic Regression, etc.) with transformer-based models (SBERT and DistilBERT) to compare semantic similarity, and exposes the best-performing DistilBERT model via a web interface for real-time predictions.",
+      "link": "https://github.com/rsasmack/Text_Analytics"
+    },
+    {
+      "title": "U-Net-based-Lung-Segmentation",
+      "tech": [
+        "Python",
+        "TensorFlow/Keras",
+        "U-Net Architecture",
+        "OpenCV",
+        "Medical Imaging"
+      ],
+      "description": "Medical image segmentation project using a U-Net architecture to segment lung regions in CT/X-ray scans. Covers dataset preprocessing, model training, and visualization of segmentation masks, demonstrating experience with applied deep learning for healthcare imaging.",
+      "link": "https://github.com/rsasmack/U-Net-based-Lung-Segmentation"
+    },
+    {
+      "title": "Face-Mask-detection-through-email-warning",
+      "tech": [
+        "Python",
+        "OpenCV",
+        "Deep Learning",
+        "SMTP (Email Automation)",
+        "Real-time Inference"
+      ],
+      "description": "Real-time computer vision system that detects whether individuals are wearing face masks and automatically sends email alerts when non-compliance is detected. Implements a CNN-based classifier, integrates with OpenCV for live video streams, and uses SMTP to trigger alert workflows.",
+      "link": "https://github.com/rsasmack/Face-Mask-detection-through-email-warning"
+    },
+    {
+      "title": "Sarcasm-Detection",
+      "tech": [
+        "Python",
+        "NLP",
+        "Scikit-learn",
+        "Pandas",
+        "Text Processing",
+        "Sentiment Analysis"
+      ],
+      "description": "NLP project that detects sarcasm in text (social media posts) to improve sentiment analysis accuracy. Covers data preprocessing, feature engineering, model training with traditional ML algorithms, and evaluation of classification performance.",
+      "link": "https://github.com/rsasmack/Sarcasm-Detection"
+    },
+    {
+      "title": "Covid-Stage-Analysis-Prediction",
+      "tech": [
+        "Python",
+        "Data Analytics",
+        "Pandas",
+        "Scikit-learn",
+        "Predictive Modeling",
+        "Visualization"
+      ],
+      "description": "Predictive analytics project analyzing COVID-19 spread patterns and staging.",
+      "link": "https://github.com/rsasmack/Covid-Stage-Analysis-Prediction"
+    }
+  ]
+}
