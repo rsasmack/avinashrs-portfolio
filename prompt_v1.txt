@@ -1,0 +1,222 @@
+ROLE & BEHAVIOR
+- Act as:
+  1) Senior full-stack web developer and UX/UI designer,
+  2) DevOps engineer familiar with Git, GitHub, and GitHub Pages,
+  3) Prompt-savvy autonomous coding agent who plans before acting and explains key decisions.
+  
+- You are allowed to use all tools available.
+- Create a clear plan Artifact, then implement it, then verify the result.
+- Ask me questions ONLY if a decision is truly blocking; otherwise make reasonable, professional assumptions and move forward.
+
+HIGH-LEVEL GOAL
+Build, from scratch, a public personal portfolio website for me, hosted on GitHub Pages Site, based on:
+- My LinkedIn profile in a local PDF: `linkedin_profile.pdf`
+- My GitHub profile: https://github.com/rsasmack
+
+The website must:
+- Be publicly viewable on the internet.
+- Be easy for ME to edit via Git/GitHub.
+- Not allow public editing or any in-browser admin panel. Only I, via my GitHub account, should be able to update content by editing the repository.
+
+-------------------------
+PHASE 1 – UNDERSTAND MY PROFILE
+-------------------------
+1. Locate and read the LinkedIn PDF:
+   - Open and parse `linkedin_profile.pdf` from this workspace.
+   - Extract at least:
+     - Full name
+     - Current title / headline
+     - About / summary
+     - Work experience (roles, companies, dates, responsibilities, achievements)
+     - Education (institutions, degrees, dates)
+     - Skills and endorsements
+     - Certifications, publications, awards, and any notable highlights
+
+2. Inspect my GitHub profile:
+   - Open https://github.com/rsasmack using the browser/computer-use tools.
+   - Extract:
+     - My profile bio and tagline
+     - The list of public repositories and their descriptions
+     - Identify 3–8 key projects that best represent my AI/ML/Data Science / software expertise (e.g. larger, more recent, or more polished repos).
+   - For each selected project, capture:
+     - Name
+     - Short description
+     - Tech stack
+     - What problem it solves / what’s interesting about it
+     - Repo URL and (if obvious) a demo link, if any.
+
+3. Build a unified profile object (internally):
+   - Merge LinkedIn and GitHub info into a single, consistent mental model of me.
+   - Resolve simple conflicts on your own (e.g., different wording) by choosing the clearest, most up-to-date version.
+   - If you find a serious contradiction you cannot resolve, briefly ask me to clarify; otherwise, proceed.
+
+4. Produce a short written summary (for me to read):
+   - In one or two paragraphs, summarize:
+     - Who I am professionally
+     - My main strengths and specializations
+     - The kinds of problems I solve
+   - Then list bullets for:
+     - Top skills / technologies
+     - Top 3–8 projects you propose to feature and why.
+
+Stop here and show me this summary and the proposed featured projects. Unless I explicitly object, assume approval and continue.
+
+-------------------------
+PHASE 2 – DESIGN THE PORTFOLIO STRUCTURE
+-------------------------
+5. Propose the site’s structure and content:
+   - Design a clear information architecture for a personal portfolio, likely including sections such as:
+     - Hero / Landing (name, headline, short punchy value proposition, key call-to-action)
+     - About
+     - Skills / Tech Stack
+     - Experience & Education
+     - Featured Projects (with deep-links to GitHub repos)
+     - Publications / Certifications / Achievements (if applicable)
+     - Contact (email, GitHub, LinkedIn, any other relevant links)
+     - Optional: Blog or "Writing" section (even if initially empty, structured for easy future posts)
+   - Propose a visual style:
+     - Clean, modern, responsive design.
+     - Good typography hierarchy, consistent spacing.
+     - Mobile-first, then desktop.
+   - Decide on color palette and basic layout (e.g., top nav with section anchors, single-page scrolling layout).
+
+6. Create a "Portfolio Site Plan" Artifact:
+   - Include:
+     - Final list of sections and their purpose.
+     - What content from LinkedIn/GitHub goes into each section.
+     - Rough layout description (e.g., hero with two columns, card layout for projects).
+     - Accessibility considerations (semantic HTML, alt text, sufficient contrast, keyboard navigation).
+
+Show me this plan concisely. Unless I ask for changes, proceed with implementation.
+
+-------------------------
+PHASE 3 – IMPLEMENTATION (LOCAL CODE)
+-------------------------
+7. Tech stack & constraints:
+   - Use a static site approach that works seamlessly on GitHub Pages with minimal setup:
+     - Plain HTML + CSS + vanilla JavaScript (preferred), OR a simple static-site structure that does not require a custom build step.
+   - Do NOT require any server-side runtime for the live site.
+   - Do NOT introduce a complex framework unless it materially improves maintainability.
+   - Ensure:
+     - Fully responsive design (mobile, tablet, desktop).
+     - Semantic HTML elements for structure (<header>, <main>, <section>, <nav>, <footer>, etc.).
+     - Accessibility best practices where reasonable.
+   - External libraries (if any) must be widely used and available via CDN. Keep dependencies minimal.
+
+8. File and folder structure (suggested):
+   - Root:
+     - `index.html` – main portfolio page
+     - `assets/css/styles.css` – styling
+     - `assets/js/main.js` – behavior (e.g., smooth scrolling, simple interactivity)
+     - `assets/images/` – any static images / icons you add (placeholder as needed)
+     - `data/profile.json` (or similar) – structured representation of my content (name, headline, sections, project entries, links), to centralize editable content.
+     - `README.md` – project overview and setup
+     - `HOW_TO_EDIT.md` – detailed instructions for me on how to update the site content
+   - You may adjust the structure if you can justify it as simpler or more maintainable, but keep editing straightforward.
+
+9. Implementation details:
+   - Generate clean, well-commented code.
+   - Use `data/profile.json` (or equivalent) as the single source of truth for my content, and have `index.html` / `main.js` load from it if practical; otherwise, keep HTML content clearly sectioned and commented so I can edit easily.
+   - Highlight:
+     - My brand (headline) in the hero section.
+     - Skills / Tech stack as grouped badges or lists.
+     - Featured projects in cards with:
+       - Project name
+       - Short descriptive subtitle
+       - 2–4 bullet points of what I did / impact / tech used
+       - Buttons/links to GitHub repo (and any live demo).
+   - Include social/contact links (GitHub, LinkedIn, email) from the data sources.
+   - Add a simple footer with:
+     - Copyright line
+     - "Last updated" date (hard-coded but easy to edit later)
+   - Avoid any feature that would allow arbitrary site visitors to modify content (no admin UI, no editable forms for content).
+
+10. Self-check locally:
+   - Use the built-in preview tools or a simple local static server to:
+     - Verify layout on different viewport sizes.
+     - Click through all navigation links and external project links.
+     - Confirm that content rendering matches the extracted profile info.
+   - Fix any obvious layout or responsiveness issues you see.
+
+-------------------------
+PHASE 4 – GITHUB REPO & GITHUB PAGES DEPLOY
+-------------------------
+11. Prepare a Git repository in this workspace:
+   - Initialize a Git repo in the project folder.
+   - Add all relevant files, create a `.gitignore` if needed.
+   - Use a sensible default branch name (`main`).
+
+12. Create or use a GitHub repository:
+   - Using the browser/computer-use and/or terminal tools:
+     - If there is NO existing portfolio repo, propose one of these options (and, unless I say otherwise, pick the first):
+       1) User site: `avinashrs.github.io`
+       2) Project site: `avinashrs-portfolio`
+     - Create a PUBLIC repository under my account with the chosen name.
+   - Do NOT add any collaborators with write access; leave default permissions so only my account can push changes.
+   - Do NOT hard-code or expose any access tokens, secrets, or API keys in the repository.
+
+13. Push code to GitHub:
+   - Configure the `origin` remote to point to the new/existing repo.
+   - Commit with a clear message (e.g., "Initial commit: Portfolio site generated").
+   - Push the `main` branch.
+
+14. Configure GitHub Pages:
+   - Using the browser/computer-use tools:
+     - Go to the repo’s Settings → Pages (or equivalent, depending on current GitHub UI).
+     - Configure GitHub Pages to serve from:
+       - `main` branch, root (`/`) for a simple static site.
+     - Save the configuration and note the published URL.
+   - Wait for the Pages build to complete, then visit the live site URL.
+   - Verify that the site renders correctly and all assets load.
+
+15. Verify editing constraints:
+   - Confirm that:
+     - The site is publicly accessible (anyone can view).
+     - There is no interface on the site itself for modifying content.
+     - Editing the portfolio is only possible by modifying the repo contents (which only I can do, as the repo owner, unless I explicitly add collaborators).
+   - If any behavior on the site suggests users could submit or change portfolio content (e.g., editable fields), remove or disable that behavior.
+
+-------------------------
+PHASE 5 – DOCUMENTATION & HANDOFF
+-------------------------
+16. Create `README.md`:
+   - Include:
+     - Project description and purpose.
+     - Tech stack.
+     - File/folder structure overview.
+     - Quick start instructions to run locally (e.g., "open index.html" or "run a simple static server").
+     - Link to the live GitHub Pages URL.
+
+17. Create `HOW_TO_EDIT.md`:
+   - Write detailed, step-by-step instructions specifically for ME, covering:
+     - How to make simple content edits:
+       - If using `data/profile.json`: which fields to change for name, headline, about text, skills, project descriptions, URLs, etc.
+       - If content is mainly in `index.html`: which sections to edit and how they are marked.
+     - How to add a new project card.
+     - How to update skills or sections.
+     - How to update the "Last updated" date.
+     - How to run and check the site locally.
+     - How to commit and push changes to GitHub so that GitHub Pages updates.
+   - Keep this document clear enough that a future version of me could follow it without needing to talk to you again.
+
+18. Final summary back to me:
+   - When everything is done, provide in your final message:
+     - The final GitHub repository URL.
+     - The GitHub Pages live site URL.
+     - A brief summary of the site structure and design.
+     - A short checklist for me:
+       - How to clone the repo.
+       - Which file(s) to edit for:
+         - Text content
+         - Projects
+         - Skills
+         - Colors / styles
+       - How to redeploy (normally just `git push` to main).
+
+GENERAL CONSTRAINTS
+- Be explicit and deterministic in terminal and Git commands; show exact commands you run.
+- Keep the implementation simple, maintainable, and easy for me to edit.
+- Do not invent personal details that are not present in my LinkedIn PDF or GitHub profile.
+- Throughout, favor clarity and reliability over cleverness.
+
+Begin now by executing each PHASE step by step. Remember to create and update Artifacts as you go, and to show me the Phase 1 and Phase 2 results before fully committing to the implementation.

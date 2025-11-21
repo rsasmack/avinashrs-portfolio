@@ -1,0 +1,133 @@
+{
+  "profile": {
+    "name": "Avinash RS",
+    "fullName": "Avinash Rajaraman Swaminathan",
+    "headline": "Senior Data Scientist | Gen AI Engineer | Agentic AI",
+    "subHeadline": "Multi Cloud Inference at Scale (AWS/GCP/Azure) | Harnessing AI for Real-World Impact",
+    "about": "Transforming messy multimodal data into production-ready AI systems. Currently at Infosys launching Agentic Gen AI pipelines across AWS, GCP, and Azure platforms turning raw data points into real-time inference. Data isn't just about patterns; rather it's insights that drives decisions. Inspired by the quote: \"A point of view can be a dangerous luxury when substituted for insight and understanding\".",
+    "location": "New York, New York, United States",
+    "email": "aeroapj@gmail.com",
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/avinashrs",
+      "github": "https://github.com/rsasmack",
+      "email": "mailto:aeroapj@gmail.com"
+    }
+  },
+  "skills": {
+    "AI & Gen AI": ["LLMs (ChatGPT, LLaMA)", "RAG", "LangChain", "LangGraph", "CrewAI", "Multi-agent Systems", "Computer Vision", "NLP", "Prompt Engineering", "Vector DBs"],
+    "Languages": ["Python", "C++", "R", "Go", "JavaScript (Node.js, React)", "SQL", "NoSQL (MongoDB)", "Cypher (Neo4j)"],
+    "Cloud & DevOps": ["AWS", "GCP", "Azure", "Terraform", "Docker", "Snowflake", "Bitbucket", "Jira"],
+    "Data Engineering": ["Hadoop", "Hive", "Spark", "Tableau", "Power BI", "Looker"]
+  },
+  "experience": [
+    {
+      "company": "Infosys",
+      "role": "Senior Data Scientist",
+      "duration": "October 2024 - Present",
+      "location": "United States",
+      "description": "Launching Agentic Gen AI pipelines across AWS, GCP, and Azure platforms."
+    },
+    {
+      "company": "Yeshiva University",
+      "role": "Graduate Assistant - IT",
+      "duration": "January 2023 - May 2024",
+      "location": "New York, NY",
+      "description": ""
+    },
+    {
+      "company": "S&P Global",
+      "role": "Machine Learning Intern",
+      "duration": "May 2023 - August 2023",
+      "location": "New York, NY",
+      "description": ""
+    },
+    {
+      "company": "Tesco",
+      "role": "Senior Applied Data Scientist",
+      "duration": "July 2022 - December 2022",
+      "location": "Bengaluru, India",
+      "description": ""
+    },
+    {
+      "company": "ZS",
+      "role": "Business Analyst",
+      "duration": "May 2021 - July 2022",
+      "location": "Pune, India",
+      "description": ""
+    },
+    {
+      "company": "MaxVal Group, Inc.",
+      "role": "Patent Analyst",
+      "duration": "January 2018 - June 2020",
+      "location": "Bengaluru, India",
+      "description": ""
+    }
+  ],
+  "education": [
+    {
+      "institution": "Yeshiva University",
+      "degree": "Master of Science - MS, Artificial Intelligence",
+      "year": "2023 - 2024"
+    },
+    {
+      "institution": "International Institute of Information Technology Bangalore",
+      "degree": "Advanced Certificate, Data Science",
+      "year": "2022 - 2022"
+    },
+    {
+      "institution": "Great Lakes Institute of Management",
+      "degree": "Post Graduate Program, Data Science and Engineering",
+      "year": "2020 - 2021"
+    },
+    {
+      "institution": "Anna University",
+      "degree": "Bachelor of Technology - BTech, Information Technology",
+      "year": "2014 - 2018"
+    }
+  ],
+  "certifications": [
+    "Neo4j Certified Professional",
+    "Generative AI with Large Language Models",
+    "Large Language Models: Application through Production",
+    "J.P. Morgan - Software Engineering Job Simulation",
+    "Natural Language Processing"
+  ],
+  "projects": [
+    {
+      "title": "3D-Human-Motion",
+      "tech": ["Python", "Computer Vision", "Deep Learning (PyTorch/TensorFlow)", "NumPy", "Matplotlib"],
+      "description": "Analysis and modeling of 3D human motion data for behavioral understanding or animation.",
+      "link": "https://github.com/rsasmack/3D-Human-Motion"
+    },
+    {
+      "title": "U-Net-based-Lung-Segmentation",
+      "tech": ["Python", "TensorFlow/Keras", "U-Net Architecture", "OpenCV", "Medical Imaging"],
+      "description": "Medical image segmentation system using U-Net architecture to precisely identify lung regions in scans.",
+      "link": "https://github.com/rsasmack/U-Net-based-Lung-Segmentation"
+    },
+    {
+      "title": "Face-Mask-detection-through-email-warning",
+      "tech": ["Python", "OpenCV", "Deep Learning", "SMTP (Email Automation)", "Real-time Inference"],
+      "description": "Real-time face mask detection system that automatically sends email alerts when non-compliance is detected.",
+      "link": "https://github.com/rsasmack/Face-Mask-detection-through-email-warning"
+    },
+    {
+      "title": "Sarcasm-Detection",
+      "tech": ["Python", "NLP", "Scikit-learn", "Pandas", "Text Processing", "Sentiment Analysis"],
+      "description": "Natural Language Processing model designed to detect sarcasm in text data, improving sentiment analysis accuracy.",
+      "link": "https://github.com/rsasmack/Sarcasm-Detection"
+    },
+    {
+      "title": "Covid-Stage-Analysis-Prediction",
+      "tech": ["Python", "Data Analytics", "Pandas", "Scikit-learn", "Predictive Modeling", "Visualization (Seaborn)"],
+      "description": "Predictive analytics project analyzing COVID-19 spread patterns and staging.",
+      "link": "https://github.com/rsasmack/Covid-Stage-Analysis-Prediction"
+    },
+    {
+      "title": "Text_Analytics",
+      "tech": ["Python", "NLP", "NLTK", "Spacy", "Text Mining", "Unstructured Data Analysis"],
+      "description": "Comprehensive suite of text analysis tools and workflows for extracting insights from unstructured text.",
+      "link": "https://github.com/rsasmack/Text_Analytics"
+    }
+  ]
+}
