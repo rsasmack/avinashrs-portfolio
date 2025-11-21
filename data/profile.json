@@ -136,79 +136,66 @@
       "title": "3D-Human-Motion",
       "tech": [
         "Python",
-        "PyTorch",
-        "Computer Vision",
-        "VQ-VAE",
-        "Motion Diffusion Models",
-        "Deep Learning (PyTorch/TensorFlow)",
-        "NumPy",
-        "Matplotlib",
-      ],
-      "description": "Analysis and modeling of 3D human motion data for behavioral understanding or animation. Research-based Implementation of the Text Residual Motion Encoder (TRME) model for generating 3D human motion from natural language descriptions. Extends VQ-VAE architectures and leverages the CHAD and HumanML3D datasets to capture fine-grained motion details, including full pipelines for data prep, training, evaluation (FID, diversity, R-precision, MM-Dist), and motion visualization.",
-      "link": "https://github.com/rsasmack/3D-Human-Motion"
-    },
-    {
-      "title": "Text_Analytics",
-      "tech": [
-        "Python",
-        "NLP",
-        "NLTK",
-        "Spacy",
-        "Text Mining",
-        "Unstructured Data Analysis"
-      ],
-      "description": "End-to-end web application that detects whether two questions are duplicates, inspired by Quora/StackOverflow. Combines classic ML models (Random Forest, XGBoost, Logistic Regression, etc.) with transformer-based models (SBERT and DistilBERT) to compare semantic similarity, and exposes the best-performing DistilBERT model via a web interface for real-time predictions.",
-      "link": "https://github.com/rsasmack/Text_Analytics"
-    },
-    {
-      "title": "U-Net-based-Lung-Segmentation",
-      "tech": [
-        "Python",
-        "TensorFlow/Keras",
-        "U-Net Architecture",
-        "OpenCV",
-        "Medical Imaging"
-      ],
-      "description": "Medical image segmentation project using a U-Net architecture to segment lung regions in CT/X-ray scans. Covers dataset preprocessing, model training, and visualization of segmentation masks, demonstrating experience with applied deep learning for healthcare imaging.",
-      "link": "https://github.com/rsasmack/U-Net-based-Lung-Segmentation"
-    },
-    {
-      "title": "Face-Mask-detection-through-email-warning",
-      "tech": [
-        "Python",
-        "OpenCV",
-        "Deep Learning",
-        "SMTP (Email Automation)",
-        "Real-time Inference"
-      ],
-      "description": "Real-time computer vision system that detects whether individuals are wearing face masks and automatically sends email alerts when non-compliance is detected. Implements a CNN-based classifier, integrates with OpenCV for live video streams, and uses SMTP to trigger alert workflows.",
-      "link": "https://github.com/rsasmack/Face-Mask-detection-through-email-warning"
-    },
-    {
-      "title": "Sarcasm-Detection",
-      "tech": [
-        "Python",
-        "NLP",
-        "Scikit-learn",
-        "Pandas",
-        "Text Processing",
-        "Sentiment Analysis"
-      ],
-      "description": "NLP project that detects sarcasm in text (social media posts) to improve sentiment analysis accuracy. Covers data preprocessing, feature engineering, model training with traditional ML algorithms, and evaluation of classification performance.",
-      "link": "https://github.com/rsasmack/Sarcasm-Detection"
-    },
-    {
-      "title": "Covid-Stage-Analysis-Prediction",
-      "tech": [
-        "Python",
-        "Data Analytics",
-        "Pandas",
-        "Scikit-learn",
-        "Predictive Modeling",
-        "Visualization"
-      ],
-      "description": "Predictive analytics project analyzing COVID-19 spread patterns and staging.",
-      "link": "https://github.com/rsasmack/Covid-Stage-Analysis-Prediction"
-    }
-  ]
-}
+        "tech": [
+          "Python",
+          "NLP",
+          "NLTK",
+          "Spacy",
+          "Text Mining",
+          "Unstructured Data Analysis"
+        ],
+        "description": "End-to-end web application that detects whether two questions are duplicates, inspired by Quora/StackOverflow. Combines classic ML models (Random Forest, XGBoost, Logistic Regression, etc.) with transformer-based models (SBERT and DistilBERT) to compare semantic similarity, and exposes the best-performing DistilBERT model via a web interface for real-time predictions.",
+        "link": "https://github.com/rsasmack/Text_Analytics"
+      },
+      {
+        "title": "U-Net-based-Lung-Segmentation",
+        "tech": [
+          "Python",
+          "TensorFlow/Keras",
+          "U-Net Architecture",
+          "OpenCV",
+          "Medical Imaging"
+        ],
+        "description": "Medical image segmentation project using a U-Net architecture to segment lung regions in CT/X-ray scans. Covers dataset preprocessing, model training, and visualization of segmentation masks, demonstrating experience with applied deep learning for healthcare imaging.",
+        "link": "https://github.com/rsasmack/U-Net-based-Lung-Segmentation"
+      },
+      {
+        "title": "Face-Mask-detection-through-email-warning",
+        "tech": [
+          "Python",
+          "OpenCV",
+          "Deep Learning",
+          "SMTP (Email Automation)",
+          "Real-time Inference"
+        ],
+        "description": "Real-time computer vision system that detects whether individuals are wearing face masks and automatically sends email alerts when non-compliance is detected. Implements a CNN-based classifier, integrates with OpenCV for live video streams, and uses SMTP to trigger alert workflows.",
+        "link": "https://github.com/rsasmack/Face-Mask-detection-through-email-warning"
+      },
+      {
+        "title": "Sarcasm-Detection",
+        "tech": [
+          "Python",
+          "NLP",
+          "Scikit-learn",
+          "Pandas",
+          "Text Processing",
+          "Sentiment Analysis"
+        ],
+        "description": "NLP project that detects sarcasm in text (social media posts) to improve sentiment analysis accuracy. Covers data preprocessing, feature engineering, model training with traditional ML algorithms, and evaluation of classification performance.",
+        "link": "https://github.com/rsasmack/Sarcasm-Detection"
+      },
+      {
+        "title": "Covid-Stage-Analysis-Prediction",
+        "tech": [
+          "Python",
+          "Data Analytics",
+          "Pandas",
+          "Scikit-learn",
+          "Predictive Modeling",
+          "Visualization"
+        ],
+        "description": "Predictive analytics project analyzing COVID-19 spread patterns and staging.",
+        "link": "https://github.com/rsasmack/Covid-Stage-Analysis-Prediction"
+      }
+    ]
+  }
