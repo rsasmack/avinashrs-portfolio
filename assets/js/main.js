@@ -120,10 +120,10 @@ function renderProfile(data) {
         certSection.style.marginTop = '2rem';
         certSection.innerHTML = '<h3>Certifications</h3><ul style="list-style: disc; padding-left: 1.5rem; color: var(--secondary-color);">' +
             certifications.map(c => {
-                if (typeof c === 'object' && c.url) {
+                if (typeof c === 'object' && c.url && c.url !== '#') {
                     return `<li><a href="${c.url}" target="_blank" style="color: var(--secondary-color); text-decoration: none; border-bottom: 1px dotted var(--secondary-color);">${c.name}</a></li>`;
                 }
-                return `<li>${c}</li>`;
+                return `<li>${typeof c === 'object' ? c.name : c}</li>`;
             }).join('') + '</ul>';
         educationContainer.appendChild(certSection);
     }
