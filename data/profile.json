@@ -126,15 +126,37 @@
     }
   ],
   "certifications": [
-    "Azure AI Engineer Associate",
-    "AWS Cloud Practitioner",
-    "Google Cloud Platform (GCP) Professional Machine Learning Engineer",
-    "GCP Gen AI Skill: L400",
-    "Salesforce Certified AI Associate",
-    "M100: MongoDB for SQL Pros",
-    "Neo4j Certified Professional",
-    "Generative AI with Large Language Models",
-    "Large Language Models: Application through Production"
+    {
+      "name": "Microsoft Certified: Azure AI Engineer Associate",
+      "url": "https://learn.microsoft.com/api/credentials/share/en-gb/AvinashRS-4061/50D8DB1EB1AE7464?sharingId=F93180B143765DC5"
+    },
+    {
+      "name": "AWS Certified Cloud Practitioner",
+      "url": "https://www.credly.com/badges/851f33dd-42fb-4cf0-945c-a036daaddf98"
+    },
+    {
+      "name": "Google Cloud Platform (GCP) Professional Machine Learning Engineer",
+      "url": "https://www.credly.com/badges/f0ec5a28-2964-465f-b773-e24df3bce87b/public_url"
+    },
+    {
+      "name": "GitHub Copilot",
+      "url": "https://learn.microsoft.com/api/credentials/share/en-us/AvinashRS-4061/3430F0DD9B9D5312?sharingId=F93180B143765DC5"
+    },
+    {
+      "name": "GCP Gen AI RAG Skill: L400",
+      "url": "https://www.credly.com/badges/d05da51b-55da-4cc1-a605-c973d1dfc0db/public_url"
+    },
+    {
+      "name": "Salesforce Certified AI Associate"
+    },
+    {
+      "name": "Neo4j Certified Professional",
+      "url": "https://graphacademy.neo4j.com/c/e7bb78b6-3dc9-4071-836a-a24cc700ecfb/"
+    },
+    {
+      "name": "Large Language Models: Application through Production",
+      "url": "https://courses.edx.org/certificates/e674fc453b6a4b568e8275c5613cfa8c"
+    }
   ],
   "projects": [
     {
