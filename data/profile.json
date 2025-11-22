@@ -23,7 +23,7 @@
       "LLMs (GPT, LLaMA)",
       "RAG and Retrieval Evaluation",
       "LangChain, LangGraph",
-      "Agent Frameworks (CrewAI, Multi-agent Systems)",
+      "Agent Frameworks (MCP, CrewAI, Autogen, Google ADK, Google A2A, Multi-agent Systems)",
       "Prompt Engineering & System Design",
       "Vector DBs (FAISS, Pinecone, Neo4j Graph)",
       "Computer Vision (3D Motion, Segmentation)",
