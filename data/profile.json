@@ -4,7 +4,12 @@
     "fullName": "Avinash Rajaraman Swaminathan",
     "headline": "Senior Data Scientist | ML & Gen AI Engineer | Agentic AI",
     "subHeadline": "Deploying NLP, Vision, and Agentic AI systems for enterprise teams | From Prototype to Production",
-    "about": "Senior Data Scientist building LLM and agent-based systems that move from notebook to production across AWS, GCP, and Azure. My work spans text-to-3D human motion generation, medical imaging, and transformer-based NLP, with experience across patent analytics, retail, and financial data. I care about owning projects end-to-end: framing the problem, designing and training models, shipping APIs or web apps, and measuring real-world impact. Open to roles as Data Scientist, Machine Learning Engineer, or Gen AI Engineer where I can design and deploy ML systems at scale.",
+    "about": [
+      "🚀 **Senior Data Scientist** building LLM and agent-based systems that move from notebook to production across AWS, GCP, and Azure.",
+      "💡 **Domain Expertise:** My work spans from text-to-3D human motion generation, medical imaging, and transformer-based NLP, with experience across legal, retail, healthcare, and financial data analytics.",
+      "🛠️ **End-to-End Ownership:** I care about framing the problem, designing and training models, shipping APIs or web apps, and measuring real-world impact.",
+      "🎯 **Career Goal:** Open to roles as Data Scientist, Machine Learning Engineer, or Gen AI Engineer where I can design and deploy ML systems at scale."
+    ],
     "location": "New York, New York, United States",
     "email": "aeroapj@gmail.com",
     "social": {

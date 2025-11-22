@@ -24,7 +24,22 @@ function renderProfile(data) {
     document.getElementById('hero-subheadline').textContent = profile.subHeadline;
 
     // --- About Section ---
-    document.getElementById('about-text').textContent = profile.about;
+    // --- About Section ---
+    const aboutContainer = document.getElementById('about-content');
+    if (Array.isArray(profile.about)) {
+        const ul = document.createElement('ul');
+        ul.className = 'about-list';
+        profile.about.forEach(point => {
+            const li = document.createElement('li');
+            // Parse bold markdown-like syntax **text**
+            li.innerHTML = point.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+            ul.appendChild(li);
+        });
+        aboutContainer.innerHTML = '';
+        aboutContainer.appendChild(ul);
+    } else {
+        aboutContainer.textContent = profile.about;
+    }
 
     // --- Skills Section ---
     const skillsContainer = document.getElementById('skills-grid');
