@@ -2,8 +2,8 @@
   "profile": {
     "name": "Avinash RS",
     "fullName": "Avinash Rajaraman Swaminathan",
-    "headline": "Senior Data Scientist | ML & Gen AI Engineer | Agentic AI",
-    "subHeadline": "Deploying NLP, Vision, and Agentic AI systems for enterprise teams | From Prototype to Production",
+    "headline": "Senior Data Scientist | Gen AI Engineer | Agentic AI",
+    "subHeadline": "LLMs, Vision & NLP on AWS/GCP/Azure | From Prototype to Production Inference",
     "about": "Senior Data Scientist building LLM and agent-based systems that move from notebook to production across AWS, GCP, and Azure. My work spans text-to-3D human motion generation, medical imaging, and transformer-based NLP, with experience across patent analytics, retail, and financial data. I care about owning projects end-to-end: framing the problem, designing and training models, shipping APIs or web apps, and measuring real-world impact. Open to roles as Data Scientist, Machine Learning Engineer, or Gen AI Engineer where I can design and deploy ML systems at scale.",
     "location": "New York, New York, United States",
     "email": "aeroapj@gmail.com",
@@ -14,7 +14,7 @@
     }
   },
   "skills": {
-    "AI & ML": [
+    "AI & Gen AI": [
       "LLMs (GPT, LLaMA)",
       "RAG and Retrieval Evaluation",
       "LangChain, LangGraph",
@@ -24,7 +24,7 @@
       "Computer Vision (3D Motion, Segmentation)",
       "NLP (Transformers, Text Classification, Semantic Search)",
       "Deep Learning (PyTorch, TensorFlow/Keras)",
-      "Core ML Libraries (scikit-learn, Pandas, NumPy, Matplotlib, Seaborn)"
+      "Core ML Libraries (scikit-learn, Pandas, NumPy)"
     ],
     "Programming": [
       "Python",
@@ -111,7 +111,7 @@
     },
     {
       "institution": "Great Lakes Institute of Management",
-      "degree": "Post Graduate, Data Science",
+      "degree": "Post Graduate Program, Data Science and Engineering",
       "year": "2020 - 2021"
     },
     {
